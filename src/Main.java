@@ -49,6 +49,39 @@ boolean f = 30<45;
         int mean = (day + Day) / 2;
         System.out.println("Потребуется в среднем " + mean + " дней");
 
+        // task 5
+        int MSelery = 67_760;
+        float MSeleryInc = MSelery * 0.1f;
+        float MNewSelery = MSelery + MSeleryInc;
+        System.out.println("Маша теперь получает " + MNewSelery + " рублей");
+        int month = 12;
+        int MSeleryYear = MSelery * month;
+        float MNewSelYear = MNewSelery * month;
+        float MAnnualIncome = MNewSelYear - MSeleryYear;
+        System.out.println("Годовой доход вырос на " + MAnnualIncome + " рублей");
+
+        int DSelery = 83690;
+        float DSeleryInc = DSelery * 0.1f;
+        float DNewSelery = DSelery + DSeleryInc;
+        System.out.println("Денис теперь получает " + DNewSelery + " рублей");
+        int DSeleryYear = DSelery * month;
+        float DNewSelYear = DNewSelery * month;
+        float DAnnualIncome = DNewSelYear - DSeleryYear;
+        System.out.println("Годовой доход вырос на " + DAnnualIncome + " рублей");
+
+        int KSelery = 76230;
+        float KSeleryInc = KSelery * 0.1f;
+        float KNewSelery = KSelery + KSeleryInc;
+        System.out.println("Кристина теперь получает " + KNewSelery + " рублей");
+        int KSeleryYear = KSelery * month;
+        float KNewSelYear = KNewSelery * month;
+        float KAnnualIncome = KNewSelYear - KSeleryYear;
+        System.out.println("Годовой доход вырос на " + KAnnualIncome + " рублей");
+
+
+
+
+
 
 
 
