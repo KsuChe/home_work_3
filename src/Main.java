@@ -13,13 +13,7 @@ double vegetablesWeight = 4.5555555;
 
 char c = 45;
 boolean f = 30<45;
-// task 2
-        float firstBoxer = 78.2f;
-        float secondBoxer = 82.7f;
-        float totalWeight = firstBoxer + secondBoxer;
-        System.out.println("Общий вес бойцов " + totalWeight + " кг");
-        float weightDifference = secondBoxer - firstBoxer;
-        System.out.println("Разница в весе бойцов " + weightDifference + " кг");
+
 
 // task 2
         float firstBoxer = 78.2f;
@@ -42,6 +36,18 @@ boolean f = 30<45;
         System.out.println(presentImKg + "кг");
 
 
+
+        // task 4
+        int loseWeight = 7;
+        int presentInGr = 1000 * loseWeight;
+        int weightLoss = 250;
+        int day = presentInGr / weightLoss;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм потребуется " + day + "дней");
+        int WeightLoss = 500;
+        int Day = presentInGr / WeightLoss;
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм потребуется " + Day + "дней");
+        int mean = (day + Day) / 2;
+        System.out.println("Потребуется в среднем " + mean + " дней");
 
 
 
